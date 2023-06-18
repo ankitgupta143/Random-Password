@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@500&family=Crimson+Text&family=East+Sea+Dokdo&family=Itim&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a <br> <span>Random Password</span></h1>
+        <div class="display">
+            <input type="text" id="password" placeholder="Password">
+            <img src="https://cdn-icons-png.flaticon.com/512/1621/1621635.png" class="img" onclick="copyPassword()">
+        </div>
+        <button onclick="createPassword()"><i class="fa-regular fa-cloud-bolt fa-bounce"></i>Generate Password</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/8a485d569a.js" crossorigin="anonymous"></script>  
+</body>
+</html>
